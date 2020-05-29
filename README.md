@@ -4,32 +4,26 @@ A context-based chat bot for a banking client built using the Rasa stack.
 
 ## Requirements
 
-- python=3
+- Python 3
   - rasa
 
-## Usage
+## Instructions
 
-- Install the required Python dependencies.
+Clone this repository.
 
-```bash
-pip install rasa
-```
-
-- Clone this repository to a directory of your choice.
-
-```bash
+```ps
 git clone https://github.com/ptanmay143/rasa-bot-banking.git
-cd rasa-bot-banking
+Set-Location rasa-bot-banking
 ```
 
-- Run the program.
+Train the NLU model followed by starting the Rasa server.
 
-```bash
+```ps
 rasa train
 rasa run --cors * --endpoints endpoints.yml --log-file .\logs\out.log
 ```
 
-- Run the website/index.html file to access the chat bot widget.
+Run the `website/index.html` file to access the chat bot widget.
 
 ## License
 
