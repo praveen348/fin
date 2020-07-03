@@ -1,9 +1,9 @@
 {
     "HTML": {
-        "beautifiers": ["Pretty Diff", "JS-Beautify"]
+        "beautifiers": ["Pretty Diff"]
     },
     "JSON": {
-        "beautifiers": ["Prettier", "Pretty Diff", "JS-Beautify"]
+        "beautifiers": ["Prettier"]
     },
     "Markdown": {
         "beautifiers": ["Prettier"]
