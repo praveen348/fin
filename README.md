@@ -1,6 +1,6 @@
 # Rasa Bot Banking
 
-Context-based chat bot for a banking portal
+> Context-based chat bot for a banking portal
 
 ## Instructions
 
