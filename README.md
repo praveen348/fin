@@ -2,6 +2,11 @@
 
 > Contextual chat bot for a banking portal
 
+- [Rasa Bot Banking](#rasa-bot-banking)
+  - [Instructions](#instructions)
+    - [Setup](#setup)
+    - [Usage](#usage)
+
 ## Instructions
 
 ### Setup
