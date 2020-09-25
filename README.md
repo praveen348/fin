@@ -1,5 +1,3 @@
-<!-- omit in toc -->
-
 # Rasa Bot Banking
 
 > Contextual chat bot for a banking portal
