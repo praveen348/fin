@@ -1,6 +1,0 @@
-HTML:
-  beautifiers:
-    - Pretty Diff
-Markdown:
-  beautifiers:
-    - Prettier

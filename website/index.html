@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Chic Bot RASA</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Chic Bot RASA</title>
+</head>
 
-  <body>
-    <div id="webchat"/>
-    <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
-    <script>
-      WebChat
-        .default
-        .init({
-          selector: "#webchat",
-          initPayload: "/welcome",
-          socketUrl: "http://localhost:5005",
-          socketPath: "/socket.io",
-          title: "Banking Bot",
-          subtitle: "for ABC Bank",
-          inputTextFieldHint: "Type a message...",
-          connectingText: "Waiting for server...",
-          hideWhenNotConnected: false,
-          displayUnreadCount: true,
-          showMessageDate: true,
-          params: {
-            storage: "local"
-          }
-        });
-    </script>
-  </body>
+<body>
+  <div id="webchat" />
+  <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+  <script>
+    WebChat
+      .default
+      .init({
+        selector: "#webchat",
+        initPayload: "/welcome",
+        socketUrl: "http://localhost:5005",
+        socketPath: "/socket.io",
+        title: "Banking Bot",
+        subtitle: "for ABC Bank",
+        inputTextFieldHint: "Type a message...",
+        connectingText: "Waiting for server...",
+        hideWhenNotConnected: false,
+        displayUnreadCount: true,
+        showMessageDate: true,
+        params: {
+          storage: "local"
+        }
+      });
+  </script>
+</body>
 
 </html>
