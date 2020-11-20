@@ -27,17 +27,16 @@
 
 - Install [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-- Create a new conda environment with the name `rasa-bot-banking` using Python v3.7 and install the required dependencies.
+- Create a conda environment.
 
   ```shell
-  conda create -n rasa-bot-banking python=3.7
+  conda create -n rasa-bot-banking
   ```
 
-- Activate the conda environment and install the pip dependencies.
+- Install required dependencies.
 
   ```shell
-  conda activate rasa-bot-banking
-  pip install rasa
+  conda env create -f ./environment.yml
   ```
 
   > Follow [Rasa Installation Guide](https://rasa.com/docs/rasa/user-guide/installation/) for more help.
